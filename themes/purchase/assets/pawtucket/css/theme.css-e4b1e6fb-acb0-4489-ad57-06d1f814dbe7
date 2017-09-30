@@ -1,0 +1,195 @@
+body {
+	color: #000;
+	line-height:1.5em;
+}
+a, #bRefine a, #bRefine a.more, .bResultListItem .bResultListItemText a {
+	color:#000;
+}
+.detail a  {
+	color:#000;
+	text-decoration:underline;
+}
+h2 {
+	color:#000;
+}
+h6 {
+	color:#000;
+}
+h7 {
+	font-weight:bold;
+	font-style:italic;
+	font-size:15px;
+	color:#000;
+	margin-top:20px;
+	margin-bottom:10px;
+	display:block;
+}
+.italics {
+	font-style:italic;
+}
+ul.address li {
+	list-style-type:none;
+	margin-top:10px;
+	margin-bottom:10px;
+}
+
+.navbar-brand {
+	width: 170px;
+	padding-top: 0px;
+	padding-bottom: 5px;
+}
+.nav > li.dropdown > a.icon { 
+	padding-top:22px;
+}
+
+@media (max-width:823px) {
+	.navbar-right {
+		display:none;
+	}
+}
+@media (min-width: 768px){
+	.navbar-nav > li > a {
+	  padding-top: 22px;
+	}
+	.navbar-form {
+		margin-top:15px;
+	}
+}
+/* Search */
+
+.searchDiv {
+	border:1px solid #333;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+	padding:10px;
+}
+.searchDiv h2 {
+	margin-top:10px;
+}
+.caAdvancedSearchFormSubmit, .caAdvancedSearchFormReset {
+	background-color:#333;
+	color:#fff;
+	padding:5px 10px 5px 10px;
+	border-radius:4px;
+	-webkit-border-radius:4px;
+}
+.caAdvancedSearchFormReset {
+	margin-right:10px;
+	
+}
+.searchButton {
+  height: 30px;
+  display: inline-block;
+  margin-top: 35px;
+}
+.advSearchField select, .advSearchField .attributeListItem, .advSearchField input, .advSearchField textarea {
+	width:100% !important;
+}
+.multisearch .multisearchResult {
+	width:200px;
+	height:220px;
+	font-size:12px;
+}
+.multisearch .blockResults {
+	height:250px;
+}
+.multisearch #objectsBlock .blockResults {
+	height:470px;
+}
+.multisearch .multisearchResult img {
+	margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+.multisearch .scrollButtonNext, .multisearch .scrollButtonPrevious {
+	height:360px;
+	padding-top:160px;
+}
+.multisearch .authoritySet {
+	height:440px;
+}
+.authoritySet p {
+	margin-bottom:5px;
+	font-size:12px;
+}
+.multisearch .objectsListResult.authorityResult {
+	height: 100px;
+}
+#entitiesBlock, #occurrencesBlock {
+	margin-bottom:20px;
+}
+.multisearch #entitiesBlock .blockResults, .multisearch #occurrencesBlock .blockResults{ 
+	height:150px;
+}
+.multisearch #entitiesBlock .authoritySet, .multisearch #occurrencesBlock .authoritySet {
+	height:170px;
+}
+.multisearch .bResultItemText a {
+	color:#000;
+}
+.multisearch .bResultListItem, .multisearch .bResultListItem:hover, .multisearch .bResultListItem:hover a {
+	line-height:1.5em;
+}
+.multisearch .bResultListItem:hover a, .multisearch .bResultListItem  a {
+	padding:0px;
+	margin:0px;
+	line-height:1em;
+}
+.multisearch .bResultListItem:hover p, .multisearch .bResultListItem  p{
+	padding:0px
+	margin:0px 0px 10px 0px;
+	font-size:12px;
+	line-height:1em;
+}
+.bResultListItemCol {
+	height: 110px;
+}
+.multiDl {
+	position:absolute;
+	right:25px;
+	bottom:25px;
+	font-size:18px;
+}
+
+
+/* Browse */
+#bRefine {
+	background-color:#fff;
+	border:2px solid #000;
+	height:340px;
+	padding:10px;
+	min-width:735px;
+}
+#bRefine H3 {
+	color:#000;
+	text-transform:none;
+}
+#bRefine H5 {
+	margin-top:10px;
+	color:#000;
+}
+.bResultItemText {
+	font-size:12px;
+}
+.facetList {
+	float:left;
+	height:220px;
+	width: 12%;
+	padding-right:5px;
+}
+.advSearchField {
+	height:70px;
+}
+.bResultListItem .bResultListItemText {
+	line-height:1.5em;
+}
+
+/* Detail */
+
+.detail .detailMediaToolbar, .gallery .detailMediaToolbar {
+	font-size:18px;
+}
+
+
+.sets.lightbox #bRefine {
+	display:none;
+}
